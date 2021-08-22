@@ -51,7 +51,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* main articles and image styling*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -62,12 +62,32 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+main article{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+main article img {
+    max-height: 200px;
+    float: left;
+}
+
+main article h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Sidebar Styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -93,25 +113,6 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-main article{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-main article img {
-    max-height: 200px;
-    float: left;
-}
-
-main article h2{
-        margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Footer Styling */
