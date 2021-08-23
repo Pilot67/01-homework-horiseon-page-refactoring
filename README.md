@@ -3,7 +3,8 @@
 
 ```
 GitHub: https://github.com/Pilot67/01-homework-horiseon-page-refactoring
-
+```
+```
 Published: https://pilot67.github.io/01-homework-horiseon-page-refactoring/
 ```
 
